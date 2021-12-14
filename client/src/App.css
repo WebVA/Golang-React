@@ -1,0 +1,35 @@
+.hand-hover:hover {
+  cursor: pointer !important;
+}
+
+.cs-carousel .cs-carousel-inner {
+  opacity: 1 !important;
+}
+
+.full-height {
+  min-height: 60vh;
+}
+
+.half-height {
+  min-height: 30vh;
+}
+
+#categories-box-homepage {
+  position: absolute;
+  top: -40vh;
+  opacity: 1;
+  padding-top: 10vh;
+}
+
+body {
+  font-family: "Inter", sans-serif !important;
+}
+
+#ImageBorder {
+  border: 1px solid #000;
+}
+
+img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+  <head>
+    <meta charset="utf-8" />
+    <title>Comp Performance | Home</title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Comp Performance - Home" />
+    <meta
+      name="keywords"
+      content="competition, performance, comp performance, competitions, cars, dream car competition, win a car, car comps, online competitions, dream car giveaway, dream car giveaways, win car online, car prize, dream car, dream cars, win cars, how to win a car, how to win a car, how to win dream car, dream car competitions, win a supercar, supercar giveaway, dream car giveaway"
+    />
+    <meta name="author" content="Comp Performance" />
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon and Touch Icons-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="%PUBLIC_URL%/globalcontent/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/ico"
+      sizes="32x32"
+      href="%PUBLIC_URL%/globalcontent/favicon-32x32.ico"
+    />
+    <link
+      rel="icon"
+      type="image/ico"
+      sizes="16x16"
+      href="%PUBLIC_URL%/globalcontent/favicon-16x16.ico"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/globalcontent/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      color="#5bbad5"
+      href="%PUBLIC_URL%/globalcontent/safari-pinned-tab.svg"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="msapplication-TileColor" content="#766df4" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Page loading styles-->
+    <style>
+      .cs-page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all 0.4s 0.2s ease-in-out;
+        transition: all 0.4s 0.2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      .cs-page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .cs-page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity 0.2s ease-in-out;
+        transition: opacity 0.2s ease-in-out;
+        opacity: 0;
+      }
+      .cs-page-loading.active > .cs-page-loading-inner {
+        opacity: 1;
+      }
+      .cs-page-loading-inner > span {
+        display: block;
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #737491;
+      }
+      .cs-page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: 0.75rem;
+        vertical-align: text-bottom;
+        border: 0.15em solid #766df4;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: spinner 0.75s linear infinite;
+        animation: spinner 0.75s linear infinite;
+      }
+      @-webkit-keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <!-- Page loading scripts-->
+    <script>
+      (function () {
+        window.onload = function () {
+          //   var preloader = document.querySelector(".cs-page-loading");
+          //  // preloader.classList.remove("active");
+          //   setTimeout(function () {
+          //     //preloader.remove();
+          //   }, 2000);
+        };
+      })();
+    </script>
+    <!-- Vendor Styles-->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="%PUBLIC_URL%/vendor/simplebar/dist/simplebar.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="%PUBLIC_URL%/vendor/tiny-slider/dist/tiny-slider.css"
+    />
+    <!-- Main Theme Styles + Bootstrap-->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="%PUBLIC_URL%/css/theme.min.css"
+    />
+
+    <!-- TrustBox script -->
+    <script
+      type="text/javascript"
+      src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+      async
+    ></script>
+    <!-- End TrustBox script -->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '116318937147206');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=116318937147206&ev=PageView&noscript=1"
+      /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+  </head>
+  <!-- Body-->
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script
+      src="https://kit.fontawesome.com/1c03bf9151.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script src="%PUBLIC_URL%/vendor/jquery/dist/jquery.js"></script>
+    <script src="%PUBLIC_URL%/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- <script src="%PUBLIC_URL%/vendor/tiny-slider/dist/min/tiny-slider.js"></script> -->
+
+    <!-- TrustBox script -->
+    <!--<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>-->
+    <!-- Main theme script-->
+    <script src="%PUBLIC_URL%/js/theme.min.js"></script>
+  </body>
+</html>
